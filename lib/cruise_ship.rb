@@ -7,5 +7,9 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  passengers.each_char do |char| 
+    if passengers[char] == "A"
+    end
+      puts passengers
+    end
 end
