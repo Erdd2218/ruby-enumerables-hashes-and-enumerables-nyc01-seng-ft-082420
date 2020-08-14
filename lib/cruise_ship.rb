@@ -7,10 +7,10 @@ suite_e: "Crumpet the Elf"
 }
 
 def select_winner(passengers)
-  # winner = ""
+  winner = ""
   
   passengers.each do |suite, name| 
-    winner = ""
+    
     if name[0] == "A" && suite == :suite_a
     
     winner = name
