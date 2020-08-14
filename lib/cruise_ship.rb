@@ -12,6 +12,6 @@ def select_winner(passengers)
     if name[0] == "A" && suite == :suite_a
     end
     winner = name
-      puts winner
     end
+    puts winner
 end
