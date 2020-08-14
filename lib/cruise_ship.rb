@@ -12,8 +12,9 @@ def select_winner(passengers)
   passengers.each do |suite, name| 
     
     if name[0] == "A" && suite == :suite_a
-    end
+    
     winner = name
+  end
     end
   return winner
 end
