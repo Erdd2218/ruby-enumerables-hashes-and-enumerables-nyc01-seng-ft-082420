@@ -7,9 +7,11 @@
 # }
 
 def select_winner(passengers)
-  passengers.each  do |suite, name| 
+  passengers.each do |suite, name| 
+    winner = ""
     if name[0] == "A" && suite == :suite_a
     end
-      puts name
+    winner = name
+      puts winner
     end
 end
